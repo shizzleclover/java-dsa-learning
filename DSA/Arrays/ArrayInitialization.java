@@ -1,4 +1,5 @@
-// ArrayInitialization.java
+package DSA.Arrays;
+
 // This class demonstrates different ways to initialize arrays in Java.
 
 public class ArrayInitialization {

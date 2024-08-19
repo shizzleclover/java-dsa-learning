@@ -1,98 +1,108 @@
- # Java Data Structures and Algorithms (DSA)
+ Java Data Structures and Algorithms (DSA)
 
 Welcome to the Java Data Structures and Algorithms (DSA) repository! This repository contains Java code examples and explanations of various data structures and algorithms. Whether you are learning Java or looking to enhance your DSA skills, this repository is here to help.
 
-## 📚 Overview
+ 📚 Overview
 
 This repository includes implementations and explanations of common data structures and algorithms in Java. The goal is to provide clear, well-documented code examples and explanations that can help both beginners and advanced learners understand these fundamental concepts.
 
-## 🛠️ Contents
+ 🛠️ Contents
 
-- **Arrays**
+- Arrays
   - Basic Operations (Declaration, Instantiation, Initialization, Traversing)
   - Multi-Dimensional Arrays
 
-- **Hashing**
+- Hashing
   - HashMap
   - HashSet
   - Hashtable
 
-- **Sorting Algorithms**
+- Sorting Algorithms
   - Bubble Sort
   - Merge Sort
   - Quick Sort
 
-- **Searching Algorithms**
+- Searching Algorithms
   - Linear Search
   - Binary Search
 
-- **Other Data Structures**
+- Other Data Structures
   - Linked List
   - Stack
   - Queue
   - Tree (Binary Search Tree, AVL Tree)
   - Graph (Graph Traversal Algorithms)
 
-## 🚀 Getting Started
+ 🚀 Getting Started
 
 To get started with this repository:
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/java-dsa.git
-   ```
+1. Clone the Repository:
+   bash
+   git clone https://github.com/shizzleclover/java-dsa-learning.git
+   
 
-2. **Navigate to the Project Directory:**
-   ```bash
+2. Navigate to the Project Directory:
+   bash
    cd java-dsa
-   ```
+   
 
-3. **Explore the Code:**
+3. Explore the Code:
    Open the project in your favorite IDE (e.g., IntelliJ IDEA, Eclipse) and explore the Java files in each directory.
 
-4. **Run Examples:**
+4. Run Examples:
    Each example includes a `Main` class or a specific `Driver` class to run and test the implementation.
 
-## 📖 Learning and Contribution
+ 📖 Learning and Contribution
 
-### How to Learn
+ How to Learn
 
-- **Review Code Examples:** Each Java file includes comments and explanations for various parts of the code.
-- **Experiment:** Modify and run the code to see how changes affect the output.
-- **Read Documentation:** For detailed explanations, refer to the comments within the code and any accompanying documentation.
+- Review Code Examples: Each Java file includes comments and explanations for various parts of the code.
+- Experiment: Modify and run the code to see how changes affect the output.
+- Read Documentation: For detailed explanations, refer to the comments within the code and any accompanying documentation.
 
-### How to Contribute
+ How to Contribute
 
 Contributions are welcome! If you want to add new data structures, algorithms, or improve existing code, please follow these steps:
 
-1. **Fork the Repository:**
+1. Fork the Repository:
    Click the "Fork" button at the top right of this page to create your copy of the repository.
 
-2. **Create a Branch:**
-   ```bash
+2. Create a Branch:
+   bash
    git checkout -b feature/your-feature
-   ```
+   
 
-3. **Make Changes and Commit:**
-   ```bash
+3. Make Changes and Commit:
+   bash
    git add .
    git commit -m "Add your changes here"
-   ```
+   
 
-4. **Push to Your Fork:**
-   ```bash
+4. Push to Your Fork:
+   bash
    git push origin feature/your-feature
-   ```
+   
 
-5. **Create a Pull Request:**
+5. Create a Pull Request:
    Go to the original repository and open a pull request from your branch.
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+RULES
+- Respect the folder structure, if tampered with push to the branch repo (Pretty Please)
+- Do not tamper with other peoples codes
+- If you see a project in progress ask the owner before working on it or making changes.
+- This is a repo in which people can add their knowledge on the above listed topics meaning you don't have to be good at all, but good at at least one.
+- Contribute no matter how small, review existing topics and projects so repetition doesnt occur.
+- Weekly projects would be assigned over time to solve.
+- Endeavour to add comments to your code and file/folders
+- If you're new to java or need a refresher, you can check the crash course folder for assistance.
+- We'd be using the Neetcode.io tree for our timeline and code.
+- Most importantly have fun and write shitty code 🙏.
+ 
+
+ 🙏 Acknowledgments
 
 - Inspired by various educational resources and tutorials on data structures and algorithms.
 - Special thanks to the contributors and communities that make learning and coding more accessible.
- 

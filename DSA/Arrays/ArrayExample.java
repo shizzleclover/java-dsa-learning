@@ -1,3 +1,5 @@
+package DSA.Arrays;
+
 /* Arrays are collections of elements of the same type, stored in contiguous memory locations.
    They have an initial index of 0, meaning if you are to count elements in an array, you start with 0, 1, 2, ..., instead of the usual 1, 2, 3. */
 
