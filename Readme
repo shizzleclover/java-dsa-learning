@@ -39,7 +39,7 @@ To get started with this repository:
 
 1. Clone the Repository:
    bash
-   git clone https://github.com/yourusername/java-dsa.git
+   git clone https://github.com/shizzleclover/java-dsa-learning.git
    
 
 2. Navigate to the Project Directory:
@@ -95,7 +95,10 @@ RULES
 - This is a repo in which people can add their knowledge on the above listed topics meaning you don't have to be good at all, but good at at least one.
 - Contribute no matter how small, review existing topics and projects so repetition doesnt occur.
 - Weekly projects would be assigned over time to solve.
-
+- Endeavour to add comments to your code and file/folders
+- If you're new to java or need a refresher, you can check the crash course folder for assistance.
+- We'd be using the Neetcode.io tree for our timeline and code.
+- Most importantly have fun and write shitty code 🙏.
  
 
  🙏 Acknowledgments
