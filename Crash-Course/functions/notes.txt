@@ -1,0 +1,93 @@
+Java Methods and Method Overloading
+Functions are the same as methods
+
+1. What is a Method?
+- Definition: A method in Java is a block of code that performs a specific task. Methods are used to execute code, return values, and can be called from other methods or classes.
+- Purpose: Methods help in breaking down complex problems into smaller, manageable pieces. They promote code reuse and enhance readability.
+
+2. Method Syntax
+returnType methodName(parameters) {
+    // method body
+    return returnValue; // if the returnType is not void
+}
+
+- returnType: The data type of the value that the method returns. Use `void` if the method does not return a value.
+- methodName: The name of the method. It should be descriptive of what the method does.
+- parameters: A list of input values (optional) the method can take. They are defined as a type followed by a name.
+
+3. Method Types
+
+   a. Method without Parameters and without Return Value
+   Example:
+   public static void greet() {
+       System.out.println("Hello, welcome to Java programming!");
+   }
+   Use Case: A simple greeting message to the user. This method performs an action but does not return any value.
+
+   b. Method with Parameters and without Return Value
+   Example:
+   public static void printSum(int a, int b) {
+       int sum = a + b;
+       System.out.println("Sum: " + sum);
+   }
+   Use Case: Calculates and prints the sum of two integers. The method takes two arguments and performs an action with them.
+
+   c. Method with Parameters and Return Value
+   Example:
+   public static int multiply(int x, int y) {
+       return x * y;
+   }
+   Use Case: Multiplies two integers and returns the result. This method takes two arguments and returns a value.
+
+   d. Method with Return Value and No Parameters
+   Example:
+   public static int getRandomNumber() {
+       return (int) (Math.random() * 100) + 1;
+   }
+   Use Case: Generates and returns a random number between 1 and 100. The method does not take any parameters but returns a value.
+
+4. Method Overloading
+
+   What is Method Overloading?
+   - Definition: Method overloading occurs when multiple methods have the same name but different parameter lists within the same class.
+   - Purpose: Overloading allows methods to handle different types or numbers of inputs using the same method name, improving readability and flexibility.
+
+   Rules for Method Overloading
+   1. Different Parameter Lists: Methods must differ in the type, number, or both types of parameters.
+   2. Return Type: Overloading does not depend on the return type alone. The return type must be accompanied by different parameter lists.
+   3. Method Signature: The method signature consists of the method name and parameter list (types and order). Overloaded methods must have different signatures.
+
+   Example of Method Overloading
+   public class MathOperations {
+       // Method with two int parameters
+       public static int add(int a, int b) {
+           return a + b;
+       }
+
+       // Method with three int parameters
+       public static int add(int a, int b, int c) {
+           return a + b + c;
+       }
+
+       // Method with double parameters
+       public static double add(double a, double b) {
+           return a + b;
+       }
+
+       public static void main(String[] args) {
+           System.out.println("Sum of 5 and 10: " + add(5, 10));
+           System.out.println("Sum of 1, 2, and 3: " + add(1, 2, 3));
+           System.out.println("Sum of 1.5 and 2.5: " + add(1.5, 2.5));
+       }
+   }
+   Use Case: Overloading allows the `add` method to handle different input scenarios, such as adding two integers, three integers, or two doubles.
+
+5. Benefits of Method Overloading
+- Flexibility: Allows methods to perform similar operations with different types or numbers of inputs.
+- Code Readability: Improves readability by using the same method name for similar operations.
+- Code Reusability: Avoids the need for multiple method names for similar functionalities.
+
+6. Key Points to Remember
+- Method overloading is resolved at compile time based on method signatures.
+- Overloaded methods must have different parameter lists, not just different return types.
+- Method overloading is a way to implement polymorphism in Java.

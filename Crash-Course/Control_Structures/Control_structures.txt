@@ -1,0 +1,54 @@
+Control Structures in Java
+
+1. Conditional Statements
+
+a. if Statement:
+
+Description: The if statement evaluates a boolean expression and executes a block of code if the expression evaluates to true.
+ It allows for conditional execution of code based on certain criteria.
+for instance lets say we want to filter out users for an app to be people above the age of 18, we could write an if statement such that if age is less than 18 the person would be blocked.
+
+b. if-else Statement:
+
+Description: The if-else statement provides a way to execute one block of code if a condition is true and another block if it is false.
+ It is useful for handling two distinct scenarios based on a condition.
+ Now lets go back to the age verification logic, after confirming the age neing 18, what should happen to those lesser than 18, thats where the else statements come in.
+ So we'd have if age is less than 18 the person would be blocked else allow permission to use app.
+c. if-else if-else Statement:
+
+Description: This extension of the if-else statement allows for multiple conditions to be checked in sequence. It provides a way to handle multiple conditions that are mutually exclusive.
+This is for multiple dependant factors in the semse that a user has to fulill multiple criterias to pass this control structure in the sense that let's say to open an account on paystack.
+you need to be 18 and above, you need to have a source of identification and a passport.
+If user is above 18 else if user has identification else if user has passport, print account created sucessfully else print complete your documents
+Description: A nested if statement involves placing one if statement inside another if statement. This allows for more complex decision-making by stacking if statements in a hierarchical manner. The outer if serves as the parent, and the inner if statements are the children. 
+The execution follows a tree-like pattern where the parent if statement controls the flow to its child if statements. 
+
+Switch statement:
+Description: The switch statement selects one of many code blocks to be executed based on the value of an expression.
+It is useful when there are multiple possible values for a single variable and different actions need to be taken for each value.
+
+
+2. Looping Statements
+
+a. for Loop:
+
+Description: The for loop is used to execute a block of code a specific number of times. It includes initialization, condition, and update expressions to control the loop execution.
+b. while Loop:
+
+Description: The while loop executes a block of code as long as a condition remains true. It is useful when the number of iterations is not known beforehand and depends on dynamic conditions.
+c. do-while Loop:
+
+Description: The do-while loop is similar to the while loop but guarantees that the block of code is executed at least once before checking the condition. It is useful when the initial execution of the loop body is necessary regardless of the condition.
+
+
+3. Branching Statements
+
+a. break Statement:
+
+Description: The break statement is used to exit from the current loop or switch statement prematurely. It is useful for terminating the loop or switch execution based on certain conditions.
+b. continue Statement:
+
+Description: The continue statement skips the current iteration of a loop and continues with the next iteration. It is useful for bypassing certain iterations based on conditions.
+c. return Statement:
+
+Description: The return statement exits from the current method and optionally returns a value. It is useful for terminating method execution and optionally passing a result back to the caller.
