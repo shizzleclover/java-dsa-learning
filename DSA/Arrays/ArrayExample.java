@@ -30,5 +30,10 @@ public class ArrayExample {
         for (int i = 0; i < fruits.length; i++) {
             System.out.println("Fruit at index " + i + ": " + fruits[i]);
         }
+
+        final int [] age = {1,2,3,4,5,6,7};
+        for (int i=0; i < age.length; i++) {
+            System.out.println(i + age[i]);
+        }
     }
 }
