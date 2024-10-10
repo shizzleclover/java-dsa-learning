@@ -8,6 +8,7 @@
 //NB: JAVA IS A STRONGLY TYPED LANGUAGE WHICH MEANS CAPITALIZATION MATTERS, SEMICOLONS AND PUNCTUATION MARKS MATTERS AND HAVE MEANINGS, THEY WOUD BE DELVED IN AS WE MOVE
 public class Java_Syntax {// This is a class in java
     public static void main(String[] args) {
-        System.out.println("Hello Planet Earth");
+        System.out.println("Hello Planet Blue");
+
     }
 }
