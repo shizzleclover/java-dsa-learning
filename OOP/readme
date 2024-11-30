@@ -1,0 +1,7 @@
+Key OOP concepts
+class: Blueprints forObjects
+Object: Istance of a class
+Encapsulation: Restricting direct acces to some of an Objects components
+inheritance: A class inherits the properties of another
+Polymorphism: A method behaves differently based on the object that invokes Istance
+Abstraction:Hiding implementation details and showing only th eessential features
